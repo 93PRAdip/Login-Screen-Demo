@@ -19,6 +19,7 @@
 		3234E3931A7751E10022BC6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3234E37B1A7751E10022BC6A /* UIKit.framework */; };
 		3234E39B1A7751E10022BC6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3234E3991A7751E10022BC6A /* InfoPlist.strings */; };
 		3234E39D1A7751E10022BC6A /* loginScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3234E39C1A7751E10022BC6A /* loginScreenTests.m */; };
+		3234E3A81A77522A0022BC6A /* loginScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3234E3A71A77522A0022BC6A /* loginScreenViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		3234E3981A7751E10022BC6A /* loginScreenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "loginScreenTests-Info.plist"; sourceTree = "<group>"; };
 		3234E39A1A7751E10022BC6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3234E39C1A7751E10022BC6A /* loginScreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loginScreenTests.m; sourceTree = "<group>"; };
+		3234E3A61A77522A0022BC6A /* loginScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginScreenViewController.h; sourceTree = "<group>"; };
+		3234E3A71A77522A0022BC6A /* loginScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginScreenViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				3234E3861A7751E10022BC6A /* AppDelegate.h */,
 				3234E3871A7751E10022BC6A /* AppDelegate.m */,
+				3234E3A61A77522A0022BC6A /* loginScreenViewController.h */,
+				3234E3A71A77522A0022BC6A /* loginScreenViewController.m */,
 				3234E3891A7751E10022BC6A /* Images.xcassets */,
 				3234E37E1A7751E10022BC6A /* Supporting Files */,
 			);
@@ -240,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3234E3881A7751E10022BC6A /* AppDelegate.m in Sources */,
+				3234E3A81A77522A0022BC6A /* loginScreenViewController.m in Sources */,
 				3234E3841A7751E10022BC6A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
