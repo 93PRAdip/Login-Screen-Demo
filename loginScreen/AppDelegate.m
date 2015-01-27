@@ -9,11 +9,13 @@
 #import "AppDelegate.h"
 
 @implementation AppDelegate
-
+@synthesize objLoginVC;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    objLoginVC= [[loginScreenViewController alloc]init];
+    [self.window addSubview:objLoginVC.view];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

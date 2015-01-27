@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "loginScreenViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property(strong,nonatomic) loginScreenViewController  *objLoginVC;
 @end

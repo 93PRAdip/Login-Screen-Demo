@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface loginScreenViewController : UIViewController
+@interface loginScreenViewController : UIViewController<UITextFieldDelegate >
+{
+    UITextField *emailTF;
+    UITextField *passTF;
+    UIView *homeView;
+    
+}
+-(void)addViewController;
 
 @end
